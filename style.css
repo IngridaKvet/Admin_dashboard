@@ -1,0 +1,68 @@
+html{
+       height: 100%;
+       font-family: 'Sen', sans-serif;
+   
+}
+
+body{
+    background: linear-gradient(135deg, #FEFDCD, #A3E6FF);  
+      margin: 0;
+       padding: 0;
+       height: 100%;
+       display: grid;
+       align-items: center;
+       justify-items: center;
+
+}
+
+h1{
+    font-size: 23px;
+    margin: 0;
+    padding: 0;
+    grid-column: 2/3;
+  
+}
+
+.dashboard{
+    height: 80%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #ffffff80;
+    border-radius: 56px;
+   
+}
+
+.sidebar{
+    display: grid;
+    grid-template-rows:  118px 1fr 1fr;
+}
+
+.logoDiv{
+    display: grid;
+    padding-left: 68px;
+    padding-top: 47px;
+    grid-template-columns: repeat(2);
+    grid-template-rows: 38px;
+    align-items: center;
+}
+
+.upperNagivation{
+    display: grid;
+    padding-left: 68px;
+    align-items: center;
+    grid-template-rows: repeat(5,28px);
+    gap: 20px;
+}
+
+
+
+.lowerNavigation{
+    display: grid;
+    padding-left: 68px;
+    align-items: center;
+    grid-template-rows: repeat(3,28px);
+    gap: 20px;
+    align-content: end;
+    padding-bottom: 47px;
+}
