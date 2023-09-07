@@ -20,7 +20,9 @@ h1{
     margin: 0;
     padding: 0;
     grid-column: 2/3;
-  
+    font-weight: 400;
+    font-family: 'Sen', sans-serif;
+
 }
 
 .dashboard{
@@ -35,34 +37,39 @@ h1{
 
 .sidebar{
     display: grid;
-    grid-template-rows:  118px 1fr 1fr;
+    grid-template-rows:  38px 1fr 1fr;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 64px;
+    
+    
 }
 
 .logoDiv{
     display: grid;
-    padding-left: 68px;
-    padding-top: 47px;
     grid-template-columns: repeat(2);
     grid-template-rows: 38px;
+    justify-content: start;
     align-items: center;
+    column-gap: 14px;
+   
 }
 
 .upperNagivation{
     display: grid;
-    padding-left: 68px;
     align-items: center;
     grid-template-rows: repeat(5,28px);
     gap: 20px;
+    padding-top: 67px;
 }
+
 
 
 
 .lowerNavigation{
     display: grid;
-    padding-left: 68px;
     align-items: center;
     grid-template-rows: repeat(3,28px);
     gap: 20px;
     align-content: end;
-    padding-bottom: 47px;
 }
