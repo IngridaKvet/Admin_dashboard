@@ -32,7 +32,7 @@ h1{
     min-height: 720px;
     display: grid;
     grid-template-columns: 1fr 3fr ;
-    grid-template-rows: 20% 80%;
+    grid-template-rows: 17% 83%;
     background-color: #ffffff80;
     border-radius: 56px;
     column-gap: 16px;
@@ -44,9 +44,11 @@ header{
     grid-template-columns: 1fr 1.8fr 1.2fr;
     grid-column: 1/-1;
     justify-content: center;
-    align-items: center;
+    align-items: end;
     
 column-gap: 16px;
+padding-bottom: 30px;
+
     
 }
 
@@ -164,4 +166,69 @@ h3{
     padding-bottom: 64px;
     
 }
+
+/* main */
+.title{
+    font-weight: 600;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5% 95% ;
+    gap: 21px;
+}
+
+.projectsDiv{
+    display: grid;
+    grid-column: 1/3;
+    justify-content: center;
+    align-items: center;
+}
+
+.anouncementsDiv{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    justify-content: center;
+    align-items: center;
+}
+
+.trendingDiv{
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    background-color: #ffffff;
+    border-radius: 56px;
+    box-shadow: 4px 4px 4px #00000025;
+}
+
+.sectionOne{
+    display: grid;
+    grid-column: 1/2;
+    gap: 21px;
+
+}
+
+.sectionTwo{
+    display: grid;
+    grid-column: 2/3;
+    gap: 21px;
+
+}
+
+.sectionThree{
+    display: grid;
+    grid-column: 3/4;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 21px;
+
+}
+
+
 
