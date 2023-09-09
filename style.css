@@ -29,12 +29,14 @@ h1{
     height: 80%;
     width: 70%;
     min-width: 1113px;
+    min-height: 720px;
     display: grid;
     grid-template-columns: 1fr 3fr ;
-    grid-template-rows: 16% 84%;
+    grid-template-rows: 20% 80%;
     background-color: #ffffff80;
     border-radius: 56px;
-   
+    column-gap: 16px;
+    
 }
 
 header{
@@ -43,7 +45,11 @@ header{
     grid-column: 1/-1;
     justify-content: center;
     align-items: center;
+    
+column-gap: 16px;
+    
 }
+
 
 .userDiv{
     display: grid;
@@ -65,13 +71,14 @@ header{
     background-color: #ffffff;
     justify-content: center;
     align-items: center;
+    box-shadow: 4px 4px 4px #00000025;
 }
 
 h2{
     font-size: 25px;
     font-weight: 400;
     font-family: 'Sen', sans-serif;
-
+    white-space: nowrap;
     grid-column: 3/4;
 }
 
@@ -79,9 +86,11 @@ h2{
     display: grid;
     grid-template-columns: repeat(2);
     grid-template-rows: 38px;
-    justify-content: center;
+    padding-left: 64px;
+    justify-content: start;
     align-items: center;
     column-gap: 14px;
+  
    
 }
 
@@ -94,8 +103,10 @@ h2{
     background-color: #ffffff;
     border-radius: 56px;
     justify-content: end; 
-
     align-items: center;
+    box-shadow: 4px 4px 4px #00000025;
+
+
 }
 
 #searchIcon{
@@ -110,7 +121,7 @@ aside{
    
     grid-template-rows: 1fr 1fr;
     justify-content: center;
-    align-items: center;
+   padding-left: 15px;
 }
 
 .navDiv{
@@ -133,25 +144,13 @@ h3{
 
 }
 
-/*
-sidebar{
-    display: grid;
-    grid-template-rows:  38px 1fr 1fr;
-    padding-top: 48px;
-    padding-bottom: 48px;
-    padding-left: 64px;
-    
-    
-}
-*/
-
-
 .upperNagivation{
     display: grid;
   
     grid-template-rows: repeat(5,28px);
     gap: 20px;
-   
+    align-items: start;
+    
 }
 
 
@@ -162,5 +161,7 @@ sidebar{
     grid-template-rows: repeat(3,28px);
     gap: 20px;
     align-content: end;
+    padding-bottom: 64px;
+    
 }
 
