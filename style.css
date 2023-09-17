@@ -29,13 +29,14 @@ h1{
     height: 80%;
     width: 70%;
     min-width: 1113px;
-    min-height: 720px;
+   
     display: grid;
     grid-template-columns: 1fr 3fr ;
     grid-template-rows: 15% 85%;
     background-color: #ffffff80;
     border-radius: 56px;
     column-gap: 16px;
+   
     
 }
 
@@ -189,6 +190,7 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 6% 94% ;
     column-gap: 21px;
+    min-width: 988px;
 }
 
 .projectsDiv{
