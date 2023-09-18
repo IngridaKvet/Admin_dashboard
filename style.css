@@ -11,6 +11,7 @@ body{
     display: grid;
     align-items: center;
     justify-items: center;
+    min-height: 800px;
 }
 
 h1{
